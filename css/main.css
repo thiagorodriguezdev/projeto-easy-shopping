@@ -1,0 +1,64 @@
+@import url(reset.css);
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-left {
+  margin: 38.1rem 0 1.5rem 13.6rem;
+  display: inline-block;
+  width: 60%;
+}
+
+.container-right {
+  display: inline-block;
+  background: rgba(93, 93, 125, 0.16);
+  height: 100vh;
+  width: 32%;
+  position: absolute;
+}
+
+.container-left h1 {
+  font-size: 7rem;
+  line-height: 8rem;
+  max-width: 40.8rem;
+}
+
+.container-left p {
+  font-size: 2.8rem;
+  line-height: 4.8rem;
+  max-width: 54rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.6;
+} 
+
+.container-left button {
+  width: 26.9rem;
+  height: 6.2rem;
+
+  background-color: #9499ea;
+  color: #fff;
+  text-align: center;
+  font-size: 2.4rem;
+
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.container-right a {
+  font-size: 2.8rem;
+  padding: 24px 0px 0px 57px;
+}
+
+.container-right .opacity {
+  opacity: 0.4;
+}
+
+.girl-cellphone {
+  position: relative;
+  top: 150px;
+  right: 145px;
+}
